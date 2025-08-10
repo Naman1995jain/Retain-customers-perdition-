@@ -22,4 +22,4 @@ ENV STREAMLIT_SERVER_PORT=8000
 ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 
 # Command to run the Streamlit application
-CMD ["streamlit", "run", "churn_predictor.py"]
+CMD ["streamlit", "run", "main.py"]
