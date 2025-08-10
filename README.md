@@ -49,8 +49,4 @@ The project uses XGBoost (Extreme Gradient Boosting) algorithm for prediction, w
 
 ## Author
 
-- Naman Jain (@Naman1995jain)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Naman Jain
