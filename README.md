@@ -45,7 +45,7 @@ docker run retail-churn-predictor
 
 ## Model Information
 
-The project uses XGBoost (Extreme Gradient Boosting) algorithm for prediction, which is particularly effective for structured/tabular data. The model pipeline is saved in `churn_xgb_pipeline.joblib` for easy reuse and deployment.
+The project uses XGBoost (Extreme Gradient Boosting) algorithm for prediction, which is particularly effective for structured/tabular data. The model pipeline is saved in `churn_xgb_pipeline.joblib` for easy reuse and deployment..
 
 ## Author
 
