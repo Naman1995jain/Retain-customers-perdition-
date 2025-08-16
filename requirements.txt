@@ -1,9 +1,6 @@
-fastapi
-uvicorn
+streamlit
 joblib
 pandas
 numpy
 scikit-learn==1.6.1
 xgboost
-pydantic
-python-multipart
