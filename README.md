@@ -36,11 +36,9 @@ To make predictions using the saved model:
 python churn_predictor.py
 ```
 
-### Docker Deployment
-Build and run the Docker container:
+### Live Deployment
 ```bash
-docker build -t retail-churn-predictor .
-docker run retail-churn-predictor
+https://naman1995jain-retain-customers-perdition--main-5idebo.streamlit.app/
 ```
 
 ## Model Information
