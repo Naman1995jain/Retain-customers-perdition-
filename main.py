@@ -17,7 +17,7 @@ def load_model(model_path):
         return None
 
 # Configuration
-MODEL_PATH = "churn_xgb_pipeline.joblib"
+MODEL_PATH = "./churn_xgb_pipeline.joblib"
 PROBABILITY_THRESHOLD = 0.45
 
 # Load model

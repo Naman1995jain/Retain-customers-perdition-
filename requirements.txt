@@ -1,9 +1,9 @@
-streamlit
+fastapi
+uvicorn
 joblib
 pandas
 numpy
 scikit-learn
 xgboost
-matplotlib
-seaborn
-shap
+pydantic
+python-multipart
