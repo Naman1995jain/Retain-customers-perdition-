@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 import os
+import sklearn
 from pathlib import Path
 
 # Model loading with proper error handling
@@ -11,7 +12,14 @@ def load_model(model_path):
     try:
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model file not found at {model_path}")
-        return joblib.load(model_path)
+        
+        # Add version checking before loading
+        import sklearn
+        current_version = sklearn.__version__
+        st.info(f"Current scikit-learn version: {current_version}")
+        
+        model = joblib.load(model_path)
+        return model
     except Exception as e:
         st.error(f"Error loading model: {str(e)}")
         return None
