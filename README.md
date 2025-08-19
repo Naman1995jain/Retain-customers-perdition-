@@ -25,9 +25,9 @@ pip install -r requirements.txt
 ## Usage
 
 ### Using Jupyter Notebook
-The `Retail_data_analysis.ipynb` notebook contains detailed analysis and step-by-step model development. To run it:
+The `notebook.ipynb` notebook contains detailed analysis and step-by-step model development. To run it:
 ```bash
-jupyter notebook Retail_data_analysis.ipynb
+jupyter notebook notebook.ipynb
 ```
 
 ### Using the Python Script
