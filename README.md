@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ### Using Jupyter Notebook
 The `notebook.ipynb` notebook contains detailed analysis and step-by-step model development. To run it:
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook.ipynb
 ```
 
 ### Using the Python Script
